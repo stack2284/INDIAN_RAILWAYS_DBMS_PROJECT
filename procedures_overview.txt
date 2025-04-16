@@ -1,0 +1,19 @@
+Procedures in SQL are reusable stored routines that encapsulate a set of SQL statements. They are executed using the `CALL` statement and can accept input, output, or both types of parameters.
+
+1. `pnr`: Retrieves the booking status of a ticket using its PNR.
+2. `seat_details`: Fetches details of a seat using its seat ID.
+3. `sched`: Provides the schedule of a train's journeys using its train ID.
+4. `avail`: Lists available seats in a train by class.
+5. `rac`: Lists RAC (Reservation Against Cancellation) seats in a train by class.
+6. `all_seats_class`: Lists all non-booked seats in a train by class.
+7. `all_seats_train`: Lists all non-booked seats in a train.
+8. `passlist`: Retrieves details of all passengers on a specific train and date.
+9. `waitlist`: Lists all waitlisted passengers on a train.
+10. `refund`: Calculates the total refund amount for all canceled tickets on a train.
+11. `revenue`: Calculates the total revenue for a train within a date range.
+12. `cancelrec`: Lists PNRs and refunds for all canceled reservations.
+13. `busyroute`: Identifies the most busy route based on ticket count.
+14. `bill`: Retrieves the bill details (PNR, amount, mode) for a ticket using its PNR.
+15. `Total_due_amount`: Calculates the total unpaid amount for a passenger.
+16. `pay_ticket`: Processes payment for a ticket by updating the payment mode.
+17. `book_ticket`: Books a ticket for a passenger by seat ID, updating the seat status and generating a PNR.

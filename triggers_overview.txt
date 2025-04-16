@@ -1,0 +1,7 @@
+Triggers in SQL are special procedures that automatically execute in response to certain events on a table, such as INSERT, UPDATE, or DELETE.
+
+1. `after_route_insert`: Automatically inserts seat records into the `seat` table when a new route is added.
+2. `after_route_delete`: Deletes seat records from the `seat` table when a route is removed.
+3. `seatbook`: Updates the seat status to 'booked' when a ticket is inserted.
+4. `refundset`: Sets the refund status to 'pending' when a ticket's booking status is updated to 'cancelled'.
+5. `seatfree`: Updates the seat status to 'available' when a ticket's booking status is updated to 'cancelled'.
